@@ -1,0 +1,54 @@
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.z-10 {
+  z-index: 10;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+ul {
+  padding-left: 0;
+}
+
+ul li {
+  list-style-type: none;
+  cursor: pointer;
+}
+
+ul li:hover {
+  background-color: lightgray;
+}
+
+ul li > div {
+  padding: 8px 16px;
+}
+
+.results {
+  top: 56px;
+  box-sizing: border-box;
+  border: 1px solid gray;
+  border-top: 0;
+  border-radius: 5px;
+  max-height: 200px;
+  overflow-y: scroll;
+}
+
+.spinner {
+  padding: 8px 16px;
+}

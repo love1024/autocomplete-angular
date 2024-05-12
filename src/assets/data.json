@@ -1,0 +1,130 @@
+{
+  "data": [
+    {
+      "address1": "1745 T Street Southeast",
+      "address2": "",
+      "city": "Washington",
+      "state": "DC",
+      "postalCode": "20020"
+    },
+    {
+      "address1": "6007 Applegate Lane",
+      "address2": "",
+      "city": "Louisville",
+      "state": "KY",
+      "postalCode": "40219"
+    },
+    {
+      "address1": "560 Penstock Drive",
+      "address2": "",
+      "city": "Grass Valley",
+      "state": "CA",
+      "postalCode": "95945"
+    },
+    {
+      "address1": "150 Carter Street",
+      "address2": "",
+      "city": "Manchester",
+      "state": "CT",
+      "postalCode": "06040"
+    },
+    {
+      "address1": "560 Lindsay Avenue",
+      "address2": "",
+      "city": "Louisville",
+      "state": "KY",
+      "postalCode": "40206"
+    },
+    {
+      "address1": "18 Densmore Drive",
+      "address2": "",
+      "city": "Essex",
+      "state": "VT",
+      "postalCode": "05452"
+    },
+    {
+      "address1": "637 Britannia Drive",
+      "address2": "",
+      "city": "Vallejo",
+      "state": "CA",
+      "postalCode": "94591"
+    },
+    {
+      "address1": "5601 West Crocus Drive",
+      "address2": "",
+      "city": "Glendale",
+      "state": "AZ",
+      "postalCode": "85306"
+    },
+    {
+      "address1": "5403 Illinois Avenue",
+      "address2": "",
+      "city": "Nashville",
+      "state": "TN",
+      "postalCode": "37209"
+    },
+    {
+      "address1": "560 West Myrtle Avenue",
+      "address2": "",
+      "city": "Glendale",
+      "state": "AZ",
+      "postalCode": "85305"
+    },
+    {
+      "address1": "2203 7th Street Road",
+      "address2": "",
+      "city": "Louisville",
+      "state": "KY",
+      "postalCode": "40208"
+    },
+    {
+      "address1": "6463 Vrain Street",
+      "address2": "",
+      "city": "Arvada",
+      "state": "CO",
+      "postalCode": "80003"
+    },
+    {
+      "address1": "560 Horseshoe Drive",
+      "address2": "",
+      "city": "West Windsor",
+      "state": "VT",
+      "postalCode": "05037"
+    },
+    {
+      "address1": "60 Desousa Drive",
+      "address2": "",
+      "city": "Manchester",
+      "state": "CT",
+      "postalCode": "06040"
+    },
+    {
+      "address1": "4 Old Colony Way",
+      "address2": "",
+      "city": "Yarmouth",
+      "state": "MA",
+      "postalCode": "02664"
+    },
+    {
+      "address1": "314 South 17th Street",
+      "address2": "",
+      "city": "Nashville",
+      "state": "TN",
+      "postalCode": "37206"
+    },
+    {
+      "address1": "560 Timberridge Court",
+      "address2": "",
+      "city": "Fayetteville",
+      "state": "AR",
+      "postalCode": "72704"
+    },
+    {
+      "address1": "5461 West Shades Valley Drive",
+      "address2": "",
+      "city": "Montgomery",
+      "state": "AL",
+      "postalCode": "36108"
+    }
+  ]
+}

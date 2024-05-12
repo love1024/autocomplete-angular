@@ -1,0 +1,47 @@
+<form class="relative w-100">
+  <mat-form-field appearance="outline" class="w-100">
+    <input
+      autocomplete="off"
+      name="autocomplete"
+      matInput
+      [(ngModel)]="query"
+      placeholder="Search"
+      (input)="onInput($event)"
+    />
+    <mat-icon matSuffix>search</mat-icon>
+  </mat-form-field>
+  <div *ngIf="showResults" class="absolute z-10 w-100 results">
+    <ul *ngIf="results.length > 0 && !loading">
+      <li
+        *ngFor="let result of results"
+        class="p-3 hover:bg-secondary-lighter dark:hover:bg-neutral-dm-darkest"
+        (click)="onSelection(result)"
+      >
+        <div>
+          <ng-template
+            *ngIf="templateRef; else resultBlock"
+            [ngTemplateOutlet]="templateRef"
+            [ngTemplateOutletContext]="{ $implicit: result }"
+          ></ng-template>
+          <ng-template #resultBlock>
+            <div class="font-bold">{{ result }}</div>
+          </ng-template>
+        </div>
+        <mat-divider></mat-divider>
+      </li>
+    </ul>
+    <div *ngIf="loading" class="w-full flex justify-center relative spinner">
+      <mat-spinner
+        class="left-0 right-0 mx-auto"
+        color="primary"
+        diameter="50"
+      ></mat-spinner>
+    </div>
+    <div
+      *ngIf="results.length === 0 && !loading"
+      class="p-2 flex justify-center"
+    >
+      No results found.
+    </div>
+  </div>
+</form>
